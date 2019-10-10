@@ -25,3 +25,11 @@ prebuilt_etc {
     src: "sec_config",
     vendor: true,
 }
+
+// Component overrides
+prebuilt_etc {
+    name: "component-overrides.xml",
+    src: "component-overrides.xml",
+    sub_dir: "sysconfig",
+    vendor: true,
+}

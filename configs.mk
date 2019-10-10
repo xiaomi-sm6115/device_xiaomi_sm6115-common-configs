@@ -26,6 +26,9 @@ PRODUCT_PACKAGES += \
     sound_trigger_mixer_paths_scubaqrd.xml \
     sound_trigger_platform_info.xml
 
+# Component overrides
+PRODUCT_PACKAGES += component-overrides.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     apdr.conf \
