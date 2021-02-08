@@ -54,6 +54,9 @@ PRODUCT_PACKAGES += \
     media_profiles_vendor.xml \
     system_properties.xml
 
+# Public libraries
+PRODUCT_PACKAGES += public.libraries.txt
+
 # Seccomp
 PRODUCT_PACKAGES += \
     atfwd@2.0.policy-bengal \

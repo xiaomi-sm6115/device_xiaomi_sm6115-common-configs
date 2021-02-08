@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2023 SM6115-common Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init public lib configuration files
+prebuilt_etc {
+    name: "public.libraries.txt",
+    src: "public.libraries.txt",
+    vendor: true,
+}
