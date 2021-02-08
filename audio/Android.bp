@@ -1,0 +1,120 @@
+//
+// Copyright (C) 2023 SM6115-common Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init audio configuration files 
+prebuilt_etc {
+    name: "audio_effects.xml",
+    src: "audio_effects.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_io_policy.conf",
+    src: "audio_io_policy.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_log.cfg",
+    src: "audio_log.cfg",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_platform_info.xml",
+    src: "audio_platform_info.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_platform_info_idp.xml",
+    src: "audio_platform_info_idp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_platform_info_intcodec.xml",
+    src: "audio_platform_info_intcodec.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_platform_info_scubaidp.xml",
+    src: "audio_platform_info_scubaidp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_platform_info_scubaqrd.xml",
+    src: "audio_platform_info_scubaqrd.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_policy_configuration.xml",
+    src: "audio_policy_configuration.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "audio_policy_volumes.xml",
+    src: "audio_policy_volumes.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mixer_paths.xml",
+    src: "mixer_paths.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mixer_paths_idp.xml",
+    src: "mixer_paths_idp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mixer_paths_scubaidp.xml",
+    src: "mixer_paths_scubaidp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "mixer_paths_scubaqrd.xml",
+    src: "mixer_paths_scubaqrd.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_mixer_paths.xml",
+    src: "sound_trigger_mixer_paths.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_mixer_paths_idp.xml",
+    src: "sound_trigger_mixer_paths_idp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_mixer_paths_scubaidp.xml",
+    src: "sound_trigger_mixer_paths_scubaidp.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_mixer_paths_scubaqrd.xml",
+    src: "sound_trigger_mixer_paths_scubaqrd.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "sound_trigger_platform_info.xml",
+    src: "sound_trigger_platform_info.xml",
+    vendor: true,
+}
