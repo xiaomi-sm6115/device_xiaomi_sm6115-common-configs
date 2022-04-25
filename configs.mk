@@ -26,6 +26,16 @@ PRODUCT_PACKAGES += \
     sound_trigger_mixer_paths_scubaqrd.xml \
     sound_trigger_platform_info.xml
 
+# GPS
+PRODUCT_PACKAGES += \
+    apdr.conf \
+    flp.conf \
+    gps.conf \
+    izat.conf \
+    lowi.conf \
+    sap.conf \
+    xtwifi.conf
+
 # Media
 PRODUCT_PACKAGES += \
     media_codecs.xml \

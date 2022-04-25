@@ -1,0 +1,36 @@
+//
+// Copyright (C) 2023 SM6115-common Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init gps configuration files
+prebuilt_etc {
+    name: "apdr.conf",
+    src: "apdr.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "flp.conf",
+    src: "flp.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "gps.conf",
+    src: "gps.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "izat.conf",
+    src: "izat.conf",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "lowi.conf",
+    src: "lowi.conf",
+    vendor: true,
+}
