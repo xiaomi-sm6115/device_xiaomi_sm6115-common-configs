@@ -18,3 +18,10 @@ prebuilt_etc {
     sub_dir: "permissions",
     vendor: true,
 }
+
+// IRSC
+prebuilt_etc {
+    name: "sec_config",
+    src: "sec_config",
+    vendor: true,
+}

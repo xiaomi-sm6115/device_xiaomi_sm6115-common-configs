@@ -36,6 +36,9 @@ PRODUCT_PACKAGES += \
     sap.conf \
     xtwifi.conf
 
+# IRSC
+PRODUCT_PACKAGES += sec_config
+    
 # Media
 PRODUCT_PACKAGES += \
     media_codecs.xml \
