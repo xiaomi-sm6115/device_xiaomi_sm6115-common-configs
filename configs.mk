@@ -66,3 +66,9 @@ PRODUCT_PACKAGES += \
 # Sensor
 PRODUCT_PACKAGES += \
     hals.conf
+    
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    WCNSS_qcom_cfg.ini \
+    p2p_supplicant_overlay.conf \
+    wpa_supplicant_overlay.conf
