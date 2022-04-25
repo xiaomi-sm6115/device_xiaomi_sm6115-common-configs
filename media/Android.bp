@@ -1,0 +1,78 @@
+//
+// Copyright (C) 2023 SM6115-common Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init media configuration files
+prebuilt_etc {
+    name: "media_codecs.xml",
+    src: "media_codecs.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_performance.xml",
+    src: "media_codecs_performance.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_performance_v1.xml",
+    src: "media_codecs_performance_v1.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_performance_v2.xml",
+    src: "media_codecs_performance_v2.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_vendor.xml",
+    src: "media_codecs_vendor.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_vendor_audio.xml",
+    src: "media_codecs_vendor_audio.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_vendor_v1.xml",
+    src: "media_codecs_vendor_v1.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_vendor_v2.xml",
+    src: "media_codecs_vendor_v2.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_profiles.xml",
+    src: "media_profiles.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_profiles_scuba.xml",
+    src: "media_profiles_scuba.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_profiles_vendor.xml",
+    src: "media_profiles_vendor.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "system_properties.xml",
+    src: "system_properties.xml",
+    vendor: true,
+}
