@@ -1,0 +1,49 @@
+//
+// Copyright (C) 2023 SM6115-common Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init secomp configuration files
+prebuilt_etc {
+    name: "atfwd@2.0.policy-bengal",
+    filename: "atfwd@2.0.policy",
+    src: "atfwd@2.0.policy",
+    sub_dir: "seccomp_policy",
+    vendor: true,
+}
+prebuilt_etc {
+    name: "configstore@1.1.policy-bengal",
+    filename: "configstore@1.1.policy",
+    src: "configstore@1.1.policy",
+    sub_dir: "seccomp_policy",
+    vendor: true,
+}
+prebuilt_etc {
+    name: "mediacodec.policy-bengal",
+    filename: "mediacodec.policy",
+    src: "mediacodec.policy",
+    sub_dir: "seccomp_policy",
+    vendor: true,
+}
+prebuilt_etc {
+    name: "qspm.policy-bengal",
+    filename: "qspm.policy",
+    src: "qspm.policy",
+    sub_dir: "seccomp_policy",
+    vendor: true,
+}
+prebuilt_etc {
+    name: "qti-systemd.policy-bengal",
+    filename: "qti-systemd.policy",
+    src: "qti-systemd.policy",
+    sub_dir: "seccomp_policy",
+    vendor: true,
+}
+prebuilt_etc {
+    name: "wfdhdcphalservice.policy-bengal",
+    filename: "wfdhdcphalservice.policy",
+    src: "wfdhdcphalservice.policy",
+    sub_dir: "seccomp_policy",
+    vendor: true,
+}

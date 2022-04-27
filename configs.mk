@@ -53,3 +53,12 @@ PRODUCT_PACKAGES += \
     media_profiles_scuba.xml \
     media_profiles_vendor.xml \
     system_properties.xml
+
+# Seccomp
+PRODUCT_PACKAGES += \
+    atfwd@2.0.policy-bengal \
+    configstore@1.1.policy-bengal \
+    mediacodec.policy-bengal \
+    qspm.policy-bengal \
+    qti-systemd.policy-bengal \
+    wfdhdcphalservice.policy-bengal
