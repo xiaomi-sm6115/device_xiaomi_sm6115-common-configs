@@ -62,3 +62,7 @@ PRODUCT_PACKAGES += \
     qspm.policy-bengal \
     qti-systemd.policy-bengal \
     wfdhdcphalservice.policy-bengal
+
+# Sensor
+PRODUCT_PACKAGES += \
+    hals.conf

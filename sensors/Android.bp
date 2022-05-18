@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2023 SM6115-common Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init sensor configuration files 
+prebuilt_etc {
+    name: "hals.conf",
+    src: "hals.conf",
+    sub_dir: "sensors",
+    vendor: true,
+}
