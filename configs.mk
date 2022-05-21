@@ -69,6 +69,12 @@ PRODUCT_PACKAGES += \
 # Sensor
 PRODUCT_PACKAGES += \
     hals.conf
+
+# QTI Permissions
+PRODUCT_PACKAGES += privapp-permissions-qti.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     
 # Wi-Fi
 PRODUCT_PACKAGES += \

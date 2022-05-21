@@ -10,3 +10,11 @@ prebuilt_etc {
     src: "public.libraries.txt",
     vendor: true,
 }
+
+// Init QTI permsission files
+prebuilt_etc {
+    name: "privapp-permissions-qti.xml",
+    src: "privapp-permissions-qti.xml",
+    sub_dir: "permissions",
+    vendor: true,
+}
