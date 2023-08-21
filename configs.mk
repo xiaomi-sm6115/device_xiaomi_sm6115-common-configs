@@ -32,11 +32,14 @@ PRODUCT_PACKAGES += \
     media_codecs_performance.xml \
     media_codecs_performance_v1.xml \
     media_codecs_performance_v2.xml \
+    media_codecs_performance_v3.xml \
     media_codecs_vendor.xml \
     media_codecs_vendor_audio.xml \
     media_codecs_vendor_v1.xml \
     media_codecs_vendor_v2.xml \
+    media_codecs_vendor_v3.xml \
     media_profiles.xml \
+    media_profiles_khaje.xml \
     media_profiles_scuba.xml \
     media_profiles_vendor.xml \
     system_properties.xml

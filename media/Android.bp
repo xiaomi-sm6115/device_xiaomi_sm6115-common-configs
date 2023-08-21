@@ -30,6 +30,12 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "media_codecs_performance_v3.xml",
+    src: "media_codecs_performance_v3.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "media_codecs_vendor.xml",
     src: "media_codecs_vendor.xml",
     vendor: true,
@@ -54,6 +60,12 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "media_codecs_vendor_v3.xml",
+    src: "media_codecs_vendor_v3.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "media_profiles.xml",
     src: "media_profiles.xml",
     vendor: true,
@@ -68,6 +80,12 @@ prebuilt_etc {
 prebuilt_etc {
     name: "media_profiles_vendor.xml",
     src: "media_profiles_vendor.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_profiles_khaje.xml",
+    src: "media_profiles_khaje.xml",
     vendor: true,
 }
 
