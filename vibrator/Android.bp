@@ -1,0 +1,6 @@
+prebuilt_etc {
+    name: "excluded-input-devices.xml-bengal",
+    filename: "excluded-input-devices.xml",
+    src: "excluded-input-devices.xml",
+    vendor: true,
+}
