@@ -42,6 +42,14 @@ PRODUCT_PACKAGES += \
 # IRSC
 PRODUCT_PACKAGES += sec_config
     
+# Keylayout
+PRODUCT_PACKAGES += \
+    gpio-keys.kl \
+    uinput-cdfinger.kl \
+    uinput-focal.kl \
+    uinput-fpc.kl \
+    uinput-goodix.kl
+
 # Media
 PRODUCT_PACKAGES += \
     media_codecs.xml \
