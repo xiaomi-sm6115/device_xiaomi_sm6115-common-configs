@@ -33,3 +33,10 @@ prebuilt_etc {
     sub_dir: "sysconfig",
     vendor: true,
 }
+
+// Powerhint
+prebuilt_etc {
+    name: "powerhint.xml",
+    src: "powerhint.xml",
+    vendor: true,
+}

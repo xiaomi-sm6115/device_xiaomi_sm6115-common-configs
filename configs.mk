@@ -60,6 +60,9 @@ PRODUCT_PACKAGES += \
     media_profiles_vendor.xml \
     system_properties.xml
 
+# Powerhint
+PRODUCT_PACKAGES += powerhint.xml
+
 # Public libraries
 PRODUCT_PACKAGES += public.libraries.txt
 
