@@ -69,7 +69,7 @@ PRODUCT_PACKAGES += \
     system_properties.xml
 
 # Powerhint
-PRODUCT_PACKAGES += powerhint.xml
+PRODUCT_PACKAGES += powerhint.json
 
 # Public libraries
 PRODUCT_PACKAGES += public.libraries.txt
